@@ -6,16 +6,21 @@
 body{
     margin: 0px;
     background-color: #707070;
+    
 }
 .main-section
 {
     background-color: #ceebe2;
-    height:100%;
+    height:auto;
     width:50vw;
+    padding: 10px;
     position:absolute;
     top:0px;
     left: 25%;
     border-radius: 20px;
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
 }
 .rowdies-light {
     font-family: "Rowdies", sans-serif;
@@ -33,6 +38,7 @@ body{
     font-family: "Rowdies", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: xx-large;
   }
   
 header
@@ -41,6 +47,15 @@ header
     flex-direction: column;
     align-items: center;
 }
+
+.sub-head
+{
+  background-color: cadetblue;
+  width:100%;
+  border:solid black 1px;
+  height: 20px;
+  padding: 0%;
+}
 #primary-name
 {
     font-weight: 200;
@@ -48,6 +63,7 @@ header
 .primary-tag
 {
   color: black;
+  font-size: medium;
 }
 #primary-tag
 {
